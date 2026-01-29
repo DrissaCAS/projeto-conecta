@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #205691;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 90px;
+    align-items: center;
+
+    img {
+        height: 65px;
+        
+    }
+
+    img.photoProfile {
+        border-radius: 50%;
+        border: solid #00AAFF 5px;
+    }
+
+    nav {
+        width: 25rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    a:hover {
+        color: #00AAFF;
+    }
+}
