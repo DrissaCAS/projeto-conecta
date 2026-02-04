@@ -1,9 +1,9 @@
 import CardVoluntariado from "../../components/infocards/CardVoluntariado"
-import "./voluntariado.module.scss"
+import S from "./voluntariado.module.scss"
 
 const Voluntariado = () => {
   return (
-    <main>
+    <main className={S.mainVoluntariado}>
         <h1>Voluntariado</h1>
 
         <CardVoluntariado />

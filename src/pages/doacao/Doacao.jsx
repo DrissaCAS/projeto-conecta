@@ -1,9 +1,9 @@
 import CardDoacoes from '../../components/infocards/CardDoacoes'
-import './doacao.module.scss'
+import S from './doacao.module.scss'
 
 const Doacao = () => {
   return (
-    <main>
+    <main className={S.Doacao}>
       <h1>Doação</h1>
 
       <CardDoacoes />
