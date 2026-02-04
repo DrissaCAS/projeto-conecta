@@ -3,7 +3,7 @@ import S from './doacao.module.scss'
 
 const Doacao = () => {
   return (
-    <main className={S.Doacao}>
+    <main className={S.mainDoacoes}>
       <h1>Doação</h1>
 
       <CardDoacoes />
